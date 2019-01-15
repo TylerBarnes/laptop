@@ -1,0 +1,65 @@
+{
+    "window.zoomLevel": 0,
+    "atomKeymap.promptV3Features": true,
+    "editor.fontFamily": "Hasklig-Light, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 26,
+    "editor.letterSpacing": 0.35,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Firefox Dark",
+    "workbench.fontAliasing": "antialiased",
+    "editor.fontWeight": "600",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.6,
+    "editor.formatOnSave": true,
+    "sync.gist": "",
+    "sync.lastUpload": "2018-05-29T04:42:00.263Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "2018-01-26T22:57:37.923Z",
+    "sync.forceDownload": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.formatOnPaste": true,
+    "html.format.enable": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.allowRisky": true,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "logViewer.watch": [
+      {
+        "title": "WordPress Log",
+        "pattern": "/Users/tylerbarnes/Sites/**/debug.log"
+      }
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "bracketPairColorizer.consecutivePairColors": [
+      "()",
+      "[]",
+      "{}",
+      ["green", "Orchid", "LightSkyBlue"],
+      "Red"
+    ],
+    "files.useExperimentalFileWatcher": true,
+    "files.watcherExclude": {
+      "**/node_modules/**": true,
+      "**/.git/**": true
+    },
+    "php.validate.enable": false,
+    "workbench.sideBar.location": "right",
+    "breadcrumbs.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+      "*.js": "javascriptreact"
+    }
+  }

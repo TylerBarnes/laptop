@@ -1,0 +1,32 @@
+{
+	"Print to console": {
+		"prefix": "php",
+		"body": [
+			"?>",
+			"$0",
+			"<?php"
+		],
+		"description": "Close php tags from within open tags"
+	},
+	"PHP Console log": {
+		"prefix": "console_log_php",
+		"body": [
+			"console_log($0); "
+		],
+		"description": "Console log php variables to js"
+	},
+	"PHP Console log": {
+		"prefix": "write_log_php",
+		"body": [
+			"write_log($0); "
+		],
+		"description": "Write multidimensional php objects / arrays to the WordPress debug log"
+	},
+	"Backbone tag": {
+		"prefix": "bb",
+		"body": [
+			"<% $0 %>"
+		],
+		"description": "open annoying backbone template tags"
+	},
+}
