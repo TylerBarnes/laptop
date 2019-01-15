@@ -130,10 +130,12 @@ tap "thoughtbot/formulae"
 tap "homebrew/services"
 tap "universal-ctags/universal-ctags"
 tap "caskroom/cask"
+tap "homebrew/dupes"
 
 # Unix
 brew "git"
 brew "zsh"
+brew "rsync"
 
 # GitHub
 cask "github"
@@ -189,6 +191,10 @@ vscode_settings_folder='/Users/newuser/Library/Application Support/Code/User/'
 # install Hasklig font for vscode
 cd ~/Library/Fonts && { curl -OLJ 'https://github.com/i-tu/Hasklig/releases/download/1.1/Hasklig-1.1.zip'; unzip Hasklig-1.1.zip; rm Hasklig-1.1.zip; cd -; }
 
+# install wpcli
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+chmod +x wp-cli.phar
+sudo mv wp-cli.phar /usr/local/bin/wp
 
 # npm packages
 npm install -g eslint
@@ -237,6 +243,8 @@ bundle config --global jobs $((number_of_cores - 1))
 fancy_echo "Installing latest Node ..."
 bash "$HOME/.asdf/plugins/nodejs/bin/import-release-team-keyring"
 install_asdf_language "nodejs"
+
+gem install wordmove
 
 if [ -f "$HOME/.laptop.local" ]; then
   fancy_echo "Running your customizations from ~/.laptop.local ..."
