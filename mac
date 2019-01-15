@@ -17,6 +17,9 @@ defaults write com.apple.assistant.support 'Assistant Enabled' 0
 sudo killall -HUP cfprefsd
 sudo killall SystemUIServer
 
+# only show running apps in the dock
+defaults write com.apple.dock static-only -bool true; killall Dock
+
 fancy_echo() {
   local fmt="$1"; shift
 
@@ -176,10 +179,8 @@ code --install-extension jpoissonnier.vscode-styled-components --force
 code --install-extension lXSPandora.vscode-styled-components-snippets --force
 code --install-extension fabiospampinato.vscode-todo-plus --force
 
-
-
-# only show running apps in the dock
-defaults write com.apple.dock static-only -bool true; killall Dock
+# npm packages
+npm install -g eslint
 
 fancy_echo "Configuring asdf version manager ..."
 if [ ! -d "$HOME/.asdf" ]; then
