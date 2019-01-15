@@ -150,6 +150,8 @@ cask "vivaldi"
 cask "firefox"
 cask "spotify"
 cask "polymail"
+cask "transmit"
+cask "keka"
 
 EOF
 
