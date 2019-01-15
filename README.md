@@ -1,7 +1,7 @@
-Laptop
+Tyler's Laptop
 ======
 
-Laptop is a script to set up an macOS laptop for web and mobile development.
+Tyler's Laptop is a fork of a script by thoughtbot used to set up an macOS laptop for web and mobile development.
 
 It can be run multiple times on the same machine safely.
 It installs, upgrades, or skips packages
@@ -12,14 +12,14 @@ Requirements
 
 We support:
 
-* macOS Mavericks (10.9)
-* macOS Yosemite (10.10)
-* macOS El Capitan (10.11)
-* macOS Sierra (10.12)
+<!-- * macOS Mavericks (10.9) -->
+<!-- * macOS Yosemite (10.10) -->
+<!-- * macOS El Capitan (10.11) -->
+<!-- * macOS Sierra (10.12) -->
 * macOS High Sierra (10.13)
-* macOS Mojave (10.14)
+<!-- * macOS Mojave (10.14) -->
 
-Older versions may work but aren't regularly tested.
+Older or newer versions may work but aren't tested.
 Bug reports for older versions are welcome.
 
 Install
@@ -28,7 +28,7 @@ Install
 Download the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/TylerBarnes/laptop/master/mac
 ```
 
 Review the script (avoid running scripts you haven't read!):
@@ -75,38 +75,38 @@ Unix tools:
 
 * [Exuberant Ctags] for indexing files for vim tab completion
 * [Git] for version control
-* [OpenSSL] for Transport Layer Security (TLS)
-* [RCM] for managing company and personal dotfiles
-* [The Silver Searcher] for finding things in files
-* [Tmux] for saving project state and switching between projects
-* [Watchman] for watching for filesystem events
+<!-- * [OpenSSL] for Transport Layer Security (TLS) -->
+<!-- * [RCM] for managing company and personal dotfiles -->
+<!-- * [The Silver Searcher] for finding things in files -->
+<!-- * [Tmux] for saving project state and switching between projects -->
+<!-- * [Watchman] for watching for filesystem events -->
 * [Zsh] as your shell
 
-[Exuberant Ctags]: http://ctags.sourceforge.net/
+<!-- [Exuberant Ctags]: http://ctags.sourceforge.net/ -->
 [Git]: https://git-scm.com/
-[OpenSSL]: https://www.openssl.org/
-[RCM]: https://github.com/thoughtbot/rcm
-[The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
-[Tmux]: http://tmux.github.io/
-[Watchman]: https://facebook.github.io/watchman/
+<!-- [OpenSSL]: https://www.openssl.org/ -->
+<!-- [RCM]: https://github.com/thoughtbot/rcm -->
+<!-- [The Silver Searcher]: https://github.com/ggreer/the_silver_searcher -->
+<!-- [Tmux]: http://tmux.github.io/ -->
+<!-- [Watchman]: https://facebook.github.io/watchman/ -->
 [Zsh]: http://www.zsh.org/
 
-Heroku tools:
+<!-- Heroku tools: -->
 
-* [Heroku CLI] and [Parity] for interacting with the Heroku API
+<!-- * [Heroku CLI] and [Parity] for interacting with the Heroku API -->
 
-[Heroku CLI]: https://devcenter.heroku.com/articles/heroku-cli
-[Parity]: https://github.com/thoughtbot/parity
+<!-- [Heroku CLI]: https://devcenter.heroku.com/articles/heroku-cli -->
+<!-- [Parity]: https://github.com/thoughtbot/parity -->
 
 GitHub tools:
 
-* [Hub] for interacting with the GitHub API
+* [GitHub Desktop] for interacting with the GitHub API
 
-[Hub]: http://hub.github.com/
+[GitHub Desktop]: https://desktop.github.com
 
-Image tools:
+<!-- Image tools: -->
 
-* [ImageMagick] for cropping and resizing images
+<!-- * [ImageMagick] for cropping and resizing images -->
 
 Programming languages, package managers, and configuration:
 
@@ -124,13 +124,13 @@ Programming languages, package managers, and configuration:
 [Ruby]: https://www.ruby-lang.org/en/
 [Yarn]: https://yarnpkg.com/en/
 
-Databases:
+<!-- Databases: -->
 
-* [Postgres] for storing relational data
-* [Redis] for storing key-value data
+<!-- * [Postgres] for storing relational data -->
+<!-- * [Redis] for storing key-value data -->
 
-[Postgres]: http://www.postgresql.org/
-[Redis]: http://redis.io/
+<!-- [Postgres]: http://www.postgresql.org/ -->
+<!-- [Redis]: http://redis.io/ -->
 
 It should take less than 15 minutes to install (depends on your machine).
 
