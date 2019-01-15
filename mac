@@ -207,7 +207,7 @@ if ! type "mysqldump" > /dev/null; then
   echo '# Add MAMP bin directory into $PATH' >> ~/.zshrc
   echo 'PATH="/Applications/MAMP/Library/bin:$PATH"' >> ~/.zshrc
   echo 'PHP_VERSION=$(ls /Applications/MAMP/bin/php/ | sort -n | tail -1)' >> ~/.zshrc
-  echo 'export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH' >> ~/.bazshrchrc
+  echo 'export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH' >> ~/.zshrc
 fi
 
 # npm packages
