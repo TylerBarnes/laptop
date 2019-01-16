@@ -187,7 +187,7 @@ code --install-extension fabiospampinato.vscode-todo-plus --force
 
 # add vscode settings
 vscode_settings=https://raw.githubusercontent.com/TylerBarnes/laptop/master/vscode/settings.json
-vscode_settings_folder='/Users/newuser/Library/Application\ Support/Code/User/'
+vscode_settings_folder=/Users/$USER/Library/Application\ Support/Code/User/
 (cd $vscode_settings_folder && curl -O $vscode_settings)
 
 # install Hasklig font for vscode
