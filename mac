@@ -195,6 +195,11 @@ vscode_settings_folder='/Users/newuser/Library/Application Support/Code/User/'
 # install Hasklig font for vscode
 cd ~/Library/Fonts && { curl -OLJ 'https://github.com/i-tu/Hasklig/releases/download/1.1/Hasklig-1.1.zip'; unzip Hasklig-1.1.zip; rm Hasklig-1.1.zip; cd -; }
 
+fancy_echo "Configuring zsh syntax highlighting ..."
+if [ ! -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting" ]; then
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  append_to_zshrc "plugins=(git zsh-syntax-highlighting)" 1
+fi
 
 fancy_echo "Configuring wpcli ..."
 if [ ! -d "/usr/local/bin/wp" ]; then
